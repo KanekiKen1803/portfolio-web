@@ -275,19 +275,26 @@ nav{
 }
 
 /* about */
-.about{
+
+
+.about .about-container{
     width:100%;
     min-height: 100vh;
     max-width: 76rem;
     margin: auto;
-    
-    
-}
-.about-container{
     display: flex;
     align-items: center;
     min-height: 80vh;
+    padding: 2rem;
 }
+@media (max-width: 750px) {
+    .about-container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+}
+
 .about-pic img{
     height: 12rem;
     width: auto;
