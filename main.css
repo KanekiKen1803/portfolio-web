@@ -168,10 +168,10 @@ nav{
     height: 100vh;
     background: linear-gradient(
         0deg,
-        rgba(0, 58, 70, 0.8) 0%, rgba(0,0,0,1) 100%
-    ), url("images/back.png") center;
-    background-size: 1vh;
-     /*background-position-x: 38%;*/
+        rgba(0, 58, 70, 0.8) 0%, rgba(0,0,0,0.9) 100%
+    ), url("images/back1.png") center no-repeat;
+    background-size: cover;
+    
     position: relative;
 
     
