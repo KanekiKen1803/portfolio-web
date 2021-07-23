@@ -284,7 +284,7 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     padding: 2rem;
 }
 @media (max-width: 750px) {
