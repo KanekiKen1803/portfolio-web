@@ -485,6 +485,7 @@ hr{
 }
 .contact hr{
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .end-logos{
     margin:auto;
@@ -496,8 +497,7 @@ hr{
     transition: color 700ms;
 }
 @media (max-width: 750px){
-    .end-links a{
-    }
+    
     .contact-links {
         display: flex;
         flex-direction: column;
@@ -505,6 +505,9 @@ hr{
         margin-bottom: 0;
         text-align: center;
         
+    }
+    .contact-links i{
+        padding: 0.75rem 1.5rem;
     }
     .contact-title{
         margin-bottom: 1rem;
