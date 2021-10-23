@@ -9,6 +9,7 @@ html{
 
 
 }
+
 *,*::before,*::after{
     margin: 0;
     padding: 0;
@@ -458,7 +459,9 @@ hr{
    font-family: "Poppins", sans-serif;
    font-size: 1.3rem;
    font-weight: 200;
+   
 }
+
 .contact-links i{
    margin: auto;
    padding: 1.5rem;
@@ -472,10 +475,14 @@ hr{
 .end-links{
     margin: auto;
     display: flex;
+    font-family: "Poppins";
 }
 .end-links a{
-    font-family: "Poppins";
+    
     padding: 1rem 1.5rem ;
+}
+.end-links i{
+   margin-left: 0;
 }
 .end-line{
     margin: auto;
