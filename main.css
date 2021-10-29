@@ -499,6 +499,7 @@ hr{
     margin:auto;
     margin-top: 1.5rem;
     font-size: 2rem;
+    color: ivory;
 }
 .hov:hover{
     color: rgba(249, 105, 14, 1);
